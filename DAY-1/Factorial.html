@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function facto(){
+
+var i, no, fact;
+fact=1;
+no=Number(document.getElementById("num").value);//This code is used for receive input value form input field which have id num
+for(i=1; i<=no; i++)  
+{
+fact= fact*i;
+}  
+document.getElementById("answer").value= fact;//This code is used for receive calculated value of factorial and display in input field which have id answer
+}
+</script>
+</head>
+<body>
+Enter Number: <input id="num">
+<button onclick="facto()">Factorial</button>
+<input id="answer">
+</body>
+</html>
