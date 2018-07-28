@@ -1,0 +1,22 @@
+<html>
+<head>
+<script type="text/javascript">
+
+ for(i=1; i <= 5; i++)
+ {
+  for(j=1; j<=i; j++)
+ {
+   document.write(j);
+   if(j == i)
+   continue;
+   else
+   document.write(' ');
+  }
+   document.write('<br />');
+  }
+    
+</script>
+</head>
+<body>
+</body>
+</html>
