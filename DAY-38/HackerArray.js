@@ -1,4 +1,4 @@
-//Array 
+//Array in Hacker rank
 
 function getSecondLargest(nums) {
     // Complete the function
